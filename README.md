@@ -1,2 +1,6 @@
-# finance-messaging
-A collection of standard financial messages in a variety of formats, including ISO 20022 messages
+# Finance Messages
+
+This repository contains a full set of Golang code that represents the latest ISO-20022 data elements
+as per the [ISO-20022 specifications](https://www.iso20022.org/full_catalogue.page).  Use at your own
+leisure :)
+
