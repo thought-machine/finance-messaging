@@ -7,3 +7,5 @@ leisure :)
 
 ## Usage
 
+See `examples/pacs` directory for an example of usage
+
