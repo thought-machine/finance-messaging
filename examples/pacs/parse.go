@@ -5,7 +5,7 @@ import (
 	"github.com/op/go-logging"
 	"os"
 	"encoding/xml"
-	"github.com/fairxio/finance-messaging/iso20022/pacs"
+	"github.com/thought-machine/finance-messaging/iso20022/pacs"
 )
 
 var LOGGER = logging.MustGetLogger("main")

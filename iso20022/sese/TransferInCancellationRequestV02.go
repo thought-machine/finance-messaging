@@ -3,7 +3,7 @@ package sese
 import (
 	"encoding/xml"
 
-	"github.com/fairxio/finance-messaging/iso20022"
+	"github.com/thought-machine/finance-messaging/iso20022"
 )
 
 type Document00600102 struct {
