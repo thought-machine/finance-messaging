@@ -31,3 +31,57 @@ func (t *TaxType) SetTaxableBaseAmount(value, currency string) {
 func (t *TaxType) SetAmount(value, currency string) {
 	t.Amount = NewCurrencyAndAmount(value, currency)
 }
+
+// Specification of the tax type.
+type TaxType1 struct {
+
+	// Structured format.
+	Structured *TaxType7Code `xml:"Strd"`
+
+	// Additional information about the type of tax.
+	AdditionalInformation *Max350Text `xml:"AddtlInf,omitempty"`
+}
+
+func (t *TaxType1) SetStructured(value string) {
+	t.Structured = (*TaxType7Code)(&value)
+}
+
+func (t *TaxType1) SetAdditionalInformation(value string) {
+	t.AdditionalInformation = (*Max350Text)(&value)
+}
+
+// Specification of the tax type.
+type TaxType2 struct {
+
+	// Structured format.
+	Structured *TaxType5Code `xml:"Strd"`
+
+	// Additional information about the type of tax.
+	AdditionalInformation *Max350Text `xml:"AddtlInf,omitempty"`
+}
+
+func (t *TaxType2) SetStructured(value string) {
+	t.Structured = (*TaxType5Code)(&value)
+}
+
+func (t *TaxType2) SetAdditionalInformation(value string) {
+	t.AdditionalInformation = (*Max350Text)(&value)
+}
+
+// Specification of the tax type.
+type TaxType3 struct {
+
+	// Structured format.
+	Structured *TaxType6Code `xml:"Strd"`
+
+	// Additional information about the type of tax.
+	AdditionalInformation *Max350Text `xml:"AddtlInf,omitempty"`
+}
+
+func (t *TaxType3) SetStructured(value string) {
+	t.Structured = (*TaxType6Code)(&value)
+}
+
+func (t *TaxType3) SetAdditionalInformation(value string) {
+	t.AdditionalInformation = (*Max350Text)(&value)
+}
