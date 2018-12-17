@@ -1,3 +1,0 @@
-package iso20022
-
-type ExternalFinancialInstrumentIdentificationType1Code string

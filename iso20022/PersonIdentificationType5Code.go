@@ -1,3 +1,0 @@
-package iso20022
-
-type PersonIdentificationType5Code string

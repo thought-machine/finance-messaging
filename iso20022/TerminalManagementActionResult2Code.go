@@ -1,3 +1,0 @@
-package iso20022
-
-type TerminalManagementActionResult2Code string
